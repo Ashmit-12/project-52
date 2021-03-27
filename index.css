@@ -1,0 +1,99 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    background-color: rgba(27, 63, 49, 0.582);
+    border:solid rgba(0, 0, 0, 1);
+    border-radius: 10%;
+    padding: 10px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 1);
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 75px;
+}
+.head{
+    background-color:rgb(108, 116, 226);
+    border:solid;
+    display:flex;
+    justify-content: space-evenly;
+}
+.menu{
+    background-color:rgb(27, 63, 49, 0.582);
+    border:solid;
+    display:flex;
+    justify-content: space-evenly; 
+    font-size: larger;
+   
+}
+.namegrid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: rgb(108, 157, 186);
+    border:solid rgba(0, 0, 0, 1);
+    border-radius: 10%;
+    padding: 10px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 1);
+    position:relative;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.button{
+    background-color: rgb(108, 157, 186);
+    border:solid  #3C3C39 ;
+    border-radius: 10%;
+    padding: 10px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+.button1{
+    background-color: rgb(108, 157, 186);
+    border:solid #3C3C39;
+    border-radius: 10%;
+    padding: 10px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+.online{
+    background-color:rgb(27, 63, 49, 0.582);
+    border:solid;
+    display:flex;
+    justify-content: space-evenly; 
+    font-size: larger;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:white;
+}
+.item:hover p{
+    opacity:1;
+    font-weight: 600;
+}
+.item:hover img{
+    opacity:0.6
+}
+.button:hover{
+    opacity: 0.6;
+}
+.button1:hover{
+    opacity: 0.6;
+}
+.me{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(27, 63, 49, 0.582);
+    border:solid rgba(0, 0, 0, 1);
+    border-radius: 10%;
+    padding: 10px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 1);
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 75px; 
+}
+p,h2,h1{
+    text-align: center;
+}
